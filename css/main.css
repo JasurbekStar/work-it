@@ -134,6 +134,7 @@ ul {
 
 /* SITE-HERO */
 .site-hero__container {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
