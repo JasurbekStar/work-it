@@ -11,6 +11,7 @@
     --Manrope: "Manrope";
     --Fraunces: "Fraunces";
 }
+
 html {
     box-sizing: border-box;
     height: 100%;
@@ -80,6 +81,8 @@ ul {
 .site-header-hero {
     background-color: var(--Dark-Purple);
     height: 100%;
+    border-bottom-left-radius: 2500px 80px;
+    border-bottom-right-radius: 2500px 80px;
 }
 
 .site-header__container {
@@ -134,7 +137,7 @@ ul {
 
 /* SITE-HERO */
 .site-hero__container {
- 
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,6 +171,7 @@ ul {
 .site-hero {
     overflow: hidden;
     position: relative;
+
 }
 
 .site-hero::before {
@@ -183,8 +187,6 @@ ul {
     top: 315px;
     right: -3%;
 }
-
-
 .features {
     padding-top: 255px;
     padding-bottom: 171px;
